@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
 }
 header {
-  height: 120px;
+  height: 117px;
 }
 header .main {
   width: 1280px;
@@ -24,7 +24,6 @@ header .main .mainMenu {
   font-weight: bold;
   padding-top: 8px;
   display: flex;
-
 }
 header .main .mainMenu li {
   padding-right: 60px;
@@ -96,6 +95,117 @@ main .mainBanner a .text .eventPeriod span:first-of-type {
 }
 main .mainBanner a .img{}
 main .mainBanner a .img img{}
+main .eventProduct {
+  width: 1280px;
+  height: 363px;
+  display: flex;
+  margin: 120px 80px 120px 80px;
+}
+main .eventProduct .left {
+  width: 20%;
+  margin-right: 27px;
+}
+main .eventProduct .left .title {
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: -5px;
+  padding-bottom: 27px;
+}
+main .eventProduct .left .more {
+  margin-bottom: 42px;
+}
+main .eventProduct .left .more span {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding-right: 3px;
+}
+main .eventProduct .left .more i {
+  background-color: rgb(249, 187, 0);
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  border-bottom-right-radius: 5px;
+}
+main .eventProduct .left .list {
+  display: flex;
+  flex-flow: column nowrap;
+}
+main .eventProduct .left .list a {
+  background-color: rgb(249, 187, 0);
+  color: #fff;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-radius: 5px;
+  border-bottom-left-radius: 24px;
+  margin-bottom: 15px;
+}
+main .eventProduct .left .list a i {
+  padding-right: 15px;
+}
+main .eventProduct .left .list a span {
+  font-weight: bold;
+  padding-right: 120px;
+}
+main .eventProduct .left .list a i:last-of-type {
+  font-size: 1px;
+}
+main .eventProduct .left .list .twoPlusOne {}
+main .eventProduct .left .list .twoPlusOne i {}
+main .eventProduct .left .list .twoPlusOne span {}
+main .eventProduct .left .list .new {}
+main .eventProduct .left .list .new i {}
+main .eventProduct .left .list .new span {}
+main .eventProduct .product {
+  width: 1000px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  text-align: center;
+}
+main .eventProduct .product a[class ^="product"] {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  position: relative;
+}
+main .eventProduct .product a[class ^="product"] .box {
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 20px;
+  height: 248px;
+  margin: 8px;
+}
+main .eventProduct .product a[class ^="product"] .box img {
+  width: 150px;
+  height: 150px;
+  margin-top: 60px;
+}
+main .eventProduct .product a[class ^="product"] .productTitle {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+main .eventProduct .product a[class ^="product"] .price {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(249, 95, 7);
+}
+main .eventProduct .product a[class ^="product"] .icon {
+  color: #fff;
+  background-color: rgb(249, 187, 0);
+  padding: 7px 10px;
+  border-radius: 10px;
+  border-bottom-left-radius: 2px;
+  font-size: 11px;
+  letter-spacing: -1px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 footer {
   width: 1280px;
   height: 334px;
