@@ -98,40 +98,42 @@ main .mainBanner a .img img{}
 main .eventProduct {
   width: 1280px;
   height: 363px;
-  display: flex;
   margin: 120px 80px 120px 80px;
 }
-main .eventProduct .left {
+main .eventProduct .top {
+  display: flex;
+}
+main .eventProduct .top .left {
   width: 20%;
   margin-right: 27px;
 }
-main .eventProduct .left .title {
+main .eventProduct .top .left .title {
   font-size: 39px;
   font-weight: bold;
   letter-spacing: -5px;
   padding-bottom: 27px;
 }
-main .eventProduct .left .more {
+main .eventProduct .top .left .more {
   margin-bottom: 42px;
 }
-main .eventProduct .left .more span {
+main .eventProduct .top .left .more span {
   font-size: 15px;
   font-weight: bold;
   letter-spacing: -1px;
   padding-right: 3px;
 }
-main .eventProduct .left .more i {
+main .eventProduct .top .left .more i {
   background-color: rgb(249, 187, 0);
   font-size: 15px;
   padding: 5px;
   border-radius: 10px;
   border-bottom-right-radius: 5px;
 }
-main .eventProduct .left .list {
+main .eventProduct .top .left .list {
   display: flex;
   flex-flow: column nowrap;
 }
-main .eventProduct .left .list a {
+main .eventProduct .top .left .list a {
   background-color: rgb(249, 187, 0);
   color: #fff;
   padding: 16px;
@@ -142,58 +144,58 @@ main .eventProduct .left .list a {
   border-bottom-left-radius: 24px;
   margin-bottom: 15px;
 }
-main .eventProduct .left .list a i {
+main .eventProduct .top .left .list a i {
   padding-right: 15px;
 }
-main .eventProduct .left .list a span {
+main .eventProduct .top .left .list a span {
   font-weight: bold;
   padding-right: 120px;
 }
-main .eventProduct .left .list a i:last-of-type {
+main .eventProduct .top .left .list a i:last-of-type {
   font-size: 1px;
 }
-main .eventProduct .left .list .twoPlusOne {}
-main .eventProduct .left .list .twoPlusOne i {}
-main .eventProduct .left .list .twoPlusOne span {}
-main .eventProduct .left .list .new {}
-main .eventProduct .left .list .new i {}
-main .eventProduct .left .list .new span {}
-main .eventProduct .product {
+main .eventProduct .top .left .list .twoPlusOne {}
+main .eventProduct .top .left .list .twoPlusOne i {}
+main .eventProduct .top .left .list .twoPlusOne span {}
+main .eventProduct .top .left .list .new {}
+main .eventProduct .top .left .list .new i {}
+main .eventProduct .top .left .list .new span {}
+main .eventProduct .top .product {
   width: 1000px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   text-align: center;
 }
-main .eventProduct .product a[class ^="product"] {
+main .eventProduct .top .product a[class ^="product"] {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
   position: relative;
 }
-main .eventProduct .product a[class ^="product"] .box {
+main .eventProduct .top .product a[class ^="product"] .box {
   border: 1px solid rgb(238, 238, 238);
   border-radius: 20px;
   height: 248px;
   margin: 8px;
 }
-main .eventProduct .product a[class ^="product"] .box img {
+main .eventProduct .top .product a[class ^="product"] .box img {
   width: 150px;
   height: 150px;
   margin-top: 60px;
 }
-main .eventProduct .product a[class ^="product"] .productTitle {
+main .eventProduct .top .product a[class ^="product"] .productTitle {
   font-size: 15px;
   font-weight: bold;
   line-height: 1.5;
   margin-bottom: 5px;
 }
-main .eventProduct .product a[class ^="product"] .price {
+main .eventProduct .top .product a[class ^="product"] .price {
   font-size: 15px;
   font-weight: bold;
   color: rgb(249, 95, 7);
 }
-main .eventProduct .product a[class ^="product"] .icon {
+main .eventProduct .top .product a[class ^="product"] .icon {
   color: #fff;
   background-color: rgb(249, 187, 0);
   padding: 7px 10px;
@@ -205,7 +207,65 @@ main .eventProduct .product a[class ^="product"] .icon {
   top: 20px;
   right: 20px;
 }
+main .eventProduct .bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+}
+main .eventProduct .bottom a.circle1 {
+  color: rgb(249, 187, 0);
+  margin-right: 5px;
+}
+main .eventProduct .bottom a.circle2 {
+  color: rgb(243, 243, 243);
+}
+main .only_emart24 {
+  width: 1280px;
+  height: 675px;
+}
+main .only_emart24 > .title {
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: 0;
+  padding-bottom: 25px;
+}
+main .only_emart24 > .subtitle {
+  color: rgb(249, 192, 19);
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding-bottom: 90px;
+}
+main .only_emart24 .product {
+  display: flex;
+  justify-content: space-around;
+}
+main .only_emart24 .product a[class ^="product"] {
+  height: 498px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 25px;
+  text-align: center;
 
+}
+main .only_emart24 .product a[class ^="product"] .img {
+  width: 305px;
+  border-radius: 25px;
+}
+main .only_emart24 .product a[class ^="product"] img:last-of-type {
+  margin-bottom: 36px;
+}
+main .only_emart24 .product a[class ^="product"] .title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  padding-bottom: 18px;
+}
+main .only_emart24 .product a[class ^="product"] .subtitle  {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: rgb(153, 153, 153);
+}
 footer {
   width: 1280px;
   height: 334px;
