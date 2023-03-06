@@ -223,6 +223,7 @@ main .eventProduct .bottom a.circle2 {
 main .only_emart24 {
   width: 1280px;
   height: 675px;
+  margin-bottom: 160px;
 }
 main .only_emart24 > .title {
   font-size: 39px;
@@ -265,6 +266,196 @@ main .only_emart24 .product a[class ^="product"] .subtitle  {
   font-weight: bold;
   letter-spacing: -1px;
   color: rgb(153, 153, 153);
+}
+main .foundationInfo {
+  width: 4091px;
+  height: 747px;
+  background-color: rgb(253, 206, 108);
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 156px;
+  padding: 120px 70px;
+  margin-bottom: 105px;
+}
+main .foundationInfo > .title {
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  padding-bottom: 20px;
+}
+main .foundationInfo > .subtitle {
+  font-weight: 600px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+main .foundationInfo .list {
+  display: flex;
+  
+}
+main .foundationInfo .list a {
+  height: 377px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  margin-right: 20px;
+}
+main .foundationInfo .list a .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+main .foundationInfo .list a .title span {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+main .foundationInfo .list a .title i {
+  font-size: 25px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  padding: 4px 5px;
+}
+main .foundationInfo .list a .subtitle {
+  line-height: 1.5;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+main .foundationInfo .list a img {
+  width: 300px;
+}
+main .search {
+  width: 1280px;
+  height: 334px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  padding-left: 70px;
+}
+main .search .left .title {
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  padding-bottom: 60px;
+}
+main .search .left .searchBox {
+  border: 1px solid rgb(249, 187, 0);
+  width: 733px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-radius: 10px;
+  border-bottom-left-radius: 36px;
+  margin-bottom: 24px;
+}
+main .search .left .searchBox input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color:rgb(218, 218, 218);
+}
+main .search .left .searchBox a {}
+main .search .left .searchBox a i {
+  color: rgb(249, 187, 0);
+  font-size: 30px;
+}
+main .search .left ul {
+  width: 733px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .search .left ul li {
+  height: 40px;
+  margin-right: 10px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  text-align: center;
+}
+main .search .left ul li:last-of-type {
+  margin-right: 0;
+}
+main .search .left ul li a {
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+
+  line-height: 2.2;
+}
+main .search img {
+  width: 415px;
+  height: 333px;
+}
+main .appDownload {
+  width: 4091px;
+  height: 831px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+}
+main .appDownload .img {
+  margin-right: 150px;
+}
+main .appDownload .img img {
+  height: 762px;
+}
+main .appDownload .text {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+main .appDownload .text .subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(249, 187, 0);
+  margin-bottom: 10px;
+}
+main .appDownload .text .title {
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+  line-height: 1.8;
+}
+main .appDownload .text .more {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+main .appDownload .text .more span {
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-right: 10px;
+}
+main .appDownload .text .more i {
+  background-color: rgb(249, 187, 0);
+  padding: 6px 5px 2px;
+  border-radius: 10px;
+  border-bottom-right-radius: 5px;
+}
+main .appDownload .text .download {
+  background-color: rgb(249, 187, 0);
+  width: 186px;
+  height: 58px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 3.5;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+main .appDownload .text .download i {
+  padding-right: 5px;
+}
+main .appDownload .text .download span {}
+main .appDownload .text .bottomText{
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 footer {
   width: 1280px;
