@@ -1,5 +1,5 @@
 body {
-  height: auto;
+  width: 100%;
   margin: 0 auto;
 }
 header {
@@ -398,6 +398,7 @@ main .appDownload {
   display: flex;
   align-items: center;
   background-color: rgb(243, 243, 243);
+  margin-bottom: 160px;
 }
 main .appDownload .img {
   margin-right: 150px;
@@ -457,6 +458,148 @@ main .appDownload .text .bottomText{
   font-weight: bold;
   letter-spacing: -1px;
 }
+main .story {
+  width: 1280px;
+  height: 672px;
+  display: flex;
+  margin-bottom: 120px;
+}
+main .story .text {
+  margin-top: 24px;
+}
+main .story .text .title {}
+main .story .text .title span {
+  font-size: 35px;
+  line-height: 1.2;
+}
+main .story .text .title h2 {
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+  line-height: 1.0;
+}
+main .story .text .subtitle {
+  font-size: 15x;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: rgb(250, 197, 38);
+  padding-bottom: 40px;
+}
+main .story .text .icons {
+  
+}
+main .story .text .icons a {}
+main .story .text .icons a i {
+  color: rgb(235, 235, 235);
+  font-size: 24px;
+  padding-right: 10px;
+}
+main .story .contents {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+main .story .contents a[class ^="content"] {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 305px;
+  margin-right: 10px;
+}
+main .story .contents a.content2 {
+  align-self: center;
+}
+main .story .contents a[class ^="content"] img {
+  width: 305px;
+  height: 388px;
+  border: 5px solid #fff;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+main .story .contents a.content1 img {
+  border-bottom-left-radius: 0;
+}
+main .story .contents a.content3 img {
+  border-top-right-radius: 0;
+}
+main .story .contents a[class ^="content"] .bottom {
+  display: flex;
+}
+main .story .contents a[class ^="content"] .bottom img {
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+main .story .contents a[class ^="content"] .bottom .contentText {}
+main .story .contents a[class ^="content"] .bottom .contentText .title {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 10px 0 20px;
+}
+main .story .contents a[class ^="content"] .bottom .contentText .text {
+  color: rgb(167, 167, 167);
+  font-weight: bold;
+}
+main .board {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+main .board div[class ^="board"] {
+  width: 632px;
+  height: 212px;
+  padding: 32px 32px 40px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px 1px rgb(241, 241, 241);
+}
+main .board div[class ^="board"] .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+main .board div[class ^="board"] .top .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+main .board div[class ^="board"] .top .viewAll {
+  font-size: 15px;
+  font-weight: bold;
+}
+main .board div[class ^="board"] .top .viewAll span {
+  margin-right: 5px;
+}
+main .board div[class ^="board"] .top .viewAll i {
+  background-color: rgb(249, 187, 0);
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 1.7;
+  border-radius: 8px;
+  border-bottom-right-radius: 3px;
+}
+main .board div[class ^="board"] .list {
+  height: 66%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 600;
+}
+main .board div[class ^="board"] .list a {
+  display: flex;
+  justify-content: space-between;
+}
+main .board div[class ^="board"] .list a .title {
+  color: rgb(153, 153, 153);
+}
+main .board div[class ^="board"] .list a .date {
+  color: rgb(153, 153, 153);
+}
+
 footer {
   width: 1280px;
   height: 334px;
